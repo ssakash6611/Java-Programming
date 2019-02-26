@@ -1,0 +1,40 @@
+public class test
+{
+  public static void main (String[]args)
+  {
+    student John= new student();
+    John.setName("John");
+    System.out.println(John.getName());
+    John.setID("14101203");
+    System.out.println(John.getID());
+    John.setAddress("Bakon street");
+    System.out.println(John.getAddress());
+    John.setCGPA(4.00);
+    System.out.println(John.getCGPA());
+    System.out.println();
+    
+    student Mike= new student();
+    Mike.setName("Mike");
+    System.out.println(Mike.getName());
+    Mike.setID("14101288");
+    System.out.println(Mike.getID());
+    Mike.setAddress("Rebekka street");
+    System.out.println(Mike.getAddress());
+    Mike.setCGPA(2.33);
+    System.out.println(Mike.getCGPA());
+    System.out.println();
+    
+    student Carol= new student();
+    Carol.setName("Carol");
+    System.out.println(Carol.getName());
+    Carol.setID("14101255");
+    System.out.println(Carol.getID());
+    Carol.setAddress("Stuart street");
+    System.out.println(Carol.getAddress());
+    Carol.setCGPA(2.33);
+    System.out.println(Carol.getCGPA());
+  
+  
+  }
+}
+
